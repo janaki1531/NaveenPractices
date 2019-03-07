@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="email App test Suite" duration-ms="122398" started-at="2019-03-07T04:26:05Z" finished-at="2019-03-07T04:28:08Z">
+    <groups>
+      <group name="functionalTesting">
+        <method signature="ParameterTest.username(java.lang.String, java.lang.String)[pri:1, instance:com.prameters.ParameterTest@6fd02e5]" name="username" class="com.prameters.ParameterTest"/>
+      </group> <!-- functionalTesting -->
+    </groups>
+    <test name="testngTest" duration-ms="122398" started-at="2019-03-07T04:26:05Z" finished-at="2019-03-07T04:28:08Z">
+      <class name="com.prameters.ParameterTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.prameters.ParameterTest@6fd02e5]" name="setup" is-config="true" duration-ms="16909" started-at="2019-03-07T04:26:06Z" finished-at="2019-03-07T04:26:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="username(java.lang.String, java.lang.String)[pri:1, instance:com.prameters.ParameterTest@6fd02e5]" name="username" duration-ms="50119" started-at="2019-03-07T04:26:23Z" data-provider="janaki" finished-at="2019-03-07T04:27:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[janakikunapareddy@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Janaki@28]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username -->
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:com.prameters.ParameterTest@6fd02e5]" name="teardownTest" is-config="true" duration-ms="1683" started-at="2019-03-07T04:27:13Z" finished-at="2019-03-07T04:27:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.prameters.ParameterTest@6fd02e5]" name="setup" is-config="true" duration-ms="10990" started-at="2019-03-07T04:27:15Z" finished-at="2019-03-07T04:27:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="username(java.lang.String, java.lang.String)[pri:1, instance:com.prameters.ParameterTest@6fd02e5]" name="username" duration-ms="40890" started-at="2019-03-07T04:27:26Z" data-provider="janaki" finished-at="2019-03-07T04:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[janaki1531@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Janaki@28]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username -->
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:com.prameters.ParameterTest@6fd02e5]" name="teardownTest" is-config="true" duration-ms="825" started-at="2019-03-07T04:28:07Z" finished-at="2019-03-07T04:28:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+      </class> <!-- com.prameters.ParameterTest -->
+    </test> <!-- testngTest -->
+  </suite> <!-- email App test Suite -->
+</testng-results>

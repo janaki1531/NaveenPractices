@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [email App test Suite]" parallel="methods">
+  <test thread-count="2" name="testngTest(failed)" parallel="methods">
+    <parameter name="password" value="Janaki@28"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="userName" value="janakikunapareddy@gmail.com"/>
+    <parameter name="url" value="https://www.gmail.com"/>
+    <groups>
+      <run>
+        <include name="functionalTesting"/>
+        <exclude name="smokeTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.prameters.ParameterTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardownTest"/>
+          <include name="username" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.prameters.ParameterTest -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [email App test Suite] -->
